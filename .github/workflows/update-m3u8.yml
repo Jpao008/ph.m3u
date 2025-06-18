@@ -1,0 +1,38 @@
+name: Update M3U8 Live Stream Link
+
+# Triggers the workflow
+on:
+  # Runs on a schedule (every hour)
+  schedule:
+    - cron: '0 * * * *' # Ito ay nangangahulugang "at minute 0 of every hour"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-link:
+    runs-on: ubuntu-latest # Gumagamit ng isang virtual machine na may Linux
+
+    steps:
+      # Step 1: I-check out ang iyong repository para ma-access ang mga files
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      # Step 2: I-set up ang Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Step 3: I-install ang mga kailangan (Python libraries at yt-dlp)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+          sudo apt-get update && sudo apt-get install -y yt-dlp # I-install ang yt-dlp sa virtual environment
+
+      # Step 4: Patakbuhin ang iyong Python script
+      - name: Run the update script
+        env:
+          GMA_UPDATER_TOKEN: ${{ secrets.GMA_UPDATER_TOKEN }} # Dito kinukuha ang secret token
+        run: python update_script.py
