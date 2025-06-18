@@ -1,38 +1,39 @@
-name: Update M3U8 Live Stream Link
+name: Update GMA7 M3U8 Live Stream Link
 
-# Triggers the workflow
 on:
-  # Runs on a schedule (every hour)
+  # Runs on a schedule (every hour at the 5-minute mark)
   schedule:
-    - cron: '0 * * * *' # Ito ay nangangahulugang "at minute 0 of every hour"
+    - cron: '5 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  update-link:
-    runs-on: ubuntu-latest # Gumagamit ng isang virtual machine na may Linux
+  update-gma-link:
+    runs-on: ubuntu-latest
 
     steps:
-      # Step 1: I-check out ang iyong repository para ma-access ang mga files
+      # 1. Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # Step 2: I-set up ang Python environment
+      # 2. Sets up Python
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.10'
 
-      # Step 3: I-install ang mga kailangan (Python libraries at yt-dlp)
+      # 3. Installs all the required Python packages
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
-          sudo apt-get update && sudo apt-get install -y yt-dlp # I-install ang yt-dlp sa virtual environment
+          pip install google-api-python-client yt-dlp PyGithub requests
 
-      # Step 4: Patakbuhin ang iyong Python script
-      - name: Run the update script
+      # 4. Runs the Python script to perform the update
+      - name: Run the M3U8 update script
         env:
-          GMA_UPDATER_TOKEN: ${{ secrets.GMA_UPDATER_TOKEN }} # Dito kinukuha ang secret token
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }} # Automatically uses the current repo name
+          PLAYLIST_PATH: 'ph.m3u' # The path to your file
         run: python update_script.py
