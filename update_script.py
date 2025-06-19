@@ -10,22 +10,23 @@ import base64
 # 1. GITHUB_TOKEN: Siguraduhing mayroon ka nito sa iyong GitHub Secrets.
 #    Ang pangalan ng secret ay dapat "GITHUB_TOKEN".
 #    Ito ang iyong GitHub Personal Access Token na may 'repo' scope.
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = "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"
 
 # 2. CHANNEL_ID: Palitan ito ng ID ng YouTube channel na gusto mong subaybayan.
 #    Maaari kang maghanap online ng "how to find youtube channel id" para makuha ito.
 #    Halimbawa: "UCBi2mrWuNuyYy4gbM6fU18Q" (Raffy Tulfo in Action)
-CHANNEL_ID = "UCBi2mrWuNuyYy4gbM6fU18Q" 
+CHANNEL_ID = "UCBi2mrWuNuyYy4gbM6fU18Q"
 YOUTUBE_CHANNEL_URL = f"https://www.youtube.com/channel/{CHANNEL_ID}/live"
 
 # 3. CHANNEL_NAME_IN_M3U: Palitan ito ng eksaktong pangalan ng channel
 #    na nakasulat sa iyong .m3u file. (Case-sensitive ito).
-CHANNEL_NAME_IN_M3U = "GMA 7" # Palitan mo ito kung kinakailangan
+CHANNEL_NAME_IN_M3U = "GMA 7"  # Palitan mo ito kung kinakailangan
 
 # --- Mga values na awtomatikong kinukuha mula sa GitHub Actions ---
 # Hindi mo na kailangang baguhin ang mga ito kung tama ang iyong workflow file.
-GITHUB_REPO = os.getenv("GITHUB_REPO")
-PLAYLIST_PATH = os.getenv("PLAYLIST_PATH", "ph.m3u")
+GITHUB_REPO = "Jpao008/ph.m3u"
+PLAYLIST_PATH = "ph.m3u"
+
 
 # ==============================================================================
 # --- END OF CONFIGURATION - HUWAG NANG BAGUHIN ANG CODE SA IBABA NITO ---
@@ -39,11 +40,11 @@ def get_youtube_live_m3u8(channel_url):
     magkakaroon ito ng error, at hihinto ang script para sa run na ito.
     """
     print(f"Automatically checking for live stream at: {channel_url}")
-    
+
     # User-Agent para magpanggap na isang totoong browser.
     # Ito ay para subukang iwasan ang "confirm you're not a bot" error.
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-    
+
     try:
         # Idinagdag ang --user-agent sa command.
         result = subprocess.run(
@@ -81,23 +82,23 @@ def update_github_file(new_m3u8_url):
 
     try:
         response = requests.get(api_url, headers=headers)
-        response.raise_for_status() # Ititigil kung may error tulad ng 404
+        response.raise_for_status()  # Ititigil kung may error tulad ng 404
         file_data = response.json()
 
         current_content = base64.b64decode(file_data['content']).decode('utf-8')
         lines = current_content.splitlines()
-        
+
         updated_lines = []
         found_channel = False
         content_changed = False
-        
+
         i = 0
         while i < len(lines):
             line = lines[i]
             if line.strip().startswith("#EXTINF") and CHANNEL_NAME_IN_M3U in line:
                 found_channel = True
                 if i + 1 < len(lines):
-                    old_url = lines[i+1]
+                    old_url = lines[i + 1]
                     updated_lines.append(line)
                     if old_url != new_m3u8_url:
                         print(f"URL is different. Updating URL for '{CHANNEL_NAME_IN_M3U}'.")
@@ -127,7 +128,7 @@ def update_github_file(new_m3u8_url):
             "content": base64.b64encode(new_content.encode('utf-8')).decode('utf-8'),
             "sha": file_data['sha']
         }
-        
+
         update_response = requests.put(api_url, headers=headers, json=payload)
         update_response.raise_for_status()
         print("✅ Successfully updated the playlist on GitHub.")
