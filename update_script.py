@@ -8,21 +8,22 @@ import base64
 # ==============================================================================
 
 # 1. GITHUB_TOKEN: Siguraduhing mayroon ka nito sa iyong GitHub Secrets.
-#    Ito ang iyong GitHub Personal Access Token.
+#    Ang pangalan ng secret ay dapat "GITHUB_TOKEN".
+#    Ito ang iyong GitHub Personal Access Token na may 'repo' scope.
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
-# 2. CHANNEL_ID: Ito ang ID ng YouTube channel na susubaybayan.
-#    Palitan mo ito kung ibang channel ang target mo.
-#    Halimbawa para sa Raffy Tulfo in Action: "UCBi2mrWuNuyYy4gbM6fU18Q"
-#    Halimbawa para sa GMA News: "UCKL5hAuzgFQsyrsQKgU0Qng"
+# 2. CHANNEL_ID: Palitan ito ng ID ng YouTube channel na gusto mong subaybayan.
+#    Maaari kang maghanap online ng "how to find youtube channel id" para makuha ito.
+#    Halimbawa: "UCBi2mrWuNuyYy4gbM6fU18Q" (Raffy Tulfo in Action)
 CHANNEL_ID = "UCBi2mrWuNuyYy4gbM6fU18Q" 
 YOUTUBE_CHANNEL_URL = f"https://www.youtube.com/channel/{CHANNEL_ID}/live"
 
-# 3. CHANNEL_NAME_IN_M3U: Ang eksaktong pangalan ng channel na nakasulat sa
-#    iyong .m3u file na papalitan ang URL. (Case-sensitive ito)
-CHANNEL_NAME_IN_M3U = "GMA 7" # Halimbawa
+# 3. CHANNEL_NAME_IN_M3U: Palitan ito ng eksaktong pangalan ng channel
+#    na nakasulat sa iyong .m3u file. (Case-sensitive ito).
+CHANNEL_NAME_IN_M3U = "GMA 7" # Halimbawa, palitan mo kung kinakailangan
 
 # --- Mga values na awtomatikong kinukuha mula sa GitHub Actions ---
+# Hindi mo na kailangang baguhin ang mga ito kung tama ang iyong workflow file.
 GITHUB_REPO = os.getenv("GITHUB_REPO")
 PLAYLIST_PATH = os.getenv("PLAYLIST_PATH", "ph.m3u")
 
