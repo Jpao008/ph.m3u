@@ -20,7 +20,7 @@ YOUTUBE_CHANNEL_URL = f"https://www.youtube.com/channel/{CHANNEL_ID}/live"
 
 # 3. CHANNEL_NAME_IN_M3U: Palitan ito ng eksaktong pangalan ng channel
 #    na nakasulat sa iyong .m3u file. (Case-sensitive ito).
-CHANNEL_NAME_IN_M3U = "GMA 7" # Halimbawa, palitan mo kung kinakailangan
+CHANNEL_NAME_IN_M3U = "GMA 7" # Palitan mo ito kung kinakailangan
 
 # --- Mga values na awtomatikong kinukuha mula sa GitHub Actions ---
 # Hindi mo na kailangang baguhin ang mga ito kung tama ang iyong workflow file.
@@ -39,10 +39,15 @@ def get_youtube_live_m3u8(channel_url):
     magkakaroon ito ng error, at hihinto ang script para sa run na ito.
     """
     print(f"Automatically checking for live stream at: {channel_url}")
+    
+    # User-Agent para magpanggap na isang totoong browser.
+    # Ito ay para subukang iwasan ang "confirm you're not a bot" error.
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    
     try:
-        # Ang command na ito ang nagsisilbing "live check".
+        # Idinagdag ang --user-agent sa command.
         result = subprocess.run(
-            ['yt-dlp', '--get-url', channel_url],
+            ['yt-dlp', '--get-url', '--user-agent', user_agent, channel_url],
             capture_output=True,
             text=True,
             check=True
@@ -56,7 +61,7 @@ def get_youtube_live_m3u8(channel_url):
         return None
     except subprocess.CalledProcessError as e:
         # Kung pumasok dito, ibig sabihin HINDI LIVE o may ibang error.
-        print(f"ℹ️  Channel is likely not live or is region-blocked. Details: {e.stderr.strip()}")
+        print(f"ℹ️  Channel is likely not live or is blocked. Details: {e.stderr.strip()}")
         return None
     except FileNotFoundError:
         print("CRITICAL ERROR: yt-dlp is not installed in the environment.")
@@ -134,7 +139,7 @@ def update_github_file(new_m3u8_url):
 
 
 if __name__ == "__main__":
-    print("--- Starting M3U8 Update Script (Direct Method) ---")
+    print("--- Starting M3U8 Update Script (Direct Method with User-Agent) ---")
     new_url = get_youtube_live_m3u8(YOUTUBE_CHANNEL_URL)
     if new_url:
         update_github_file(new_url)
