@@ -22,7 +22,7 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 # 3. CHANNEL_ID: Ito ang ID ng YouTube channel na susubaybayan.
 #    (UCbLgT2NVE9xT-D_4-t-H25g ay para sa GMA Network)
 #    Palitan mo ito kung ibang channel ang target mo.
-CHANNEL_ID = "UCKL5hAuzgFQsyrsQKgU0Qng"
+CHANNEL_ID = "UCBi2mrWuNuyYy4gbM6fU18Q"
 
 # 4. CHANNEL_NAME_IN_M3U: Ang eksaktong pangalan ng channel na nakasulat sa
 #    iyong .m3u file. Ito ay case-sensitive.
