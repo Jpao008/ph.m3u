@@ -8,47 +8,43 @@ import base64
 # ==============================================================================
 
 # 1. GITHUB_TOKEN: Siguraduhing mayroon ka nito sa iyong GitHub Secrets.
-#    Ang pangalan ng secret ay dapat "GITHUB_TOKEN".
-#    Ito ang iyong GitHub Personal Access Token na may 'repo' scope.
+#    Ito ang iyong GitHub Personal Access Token.
 GITHUB_TOKEN = "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"
 
-# 2. CHANNEL_ID: Palitan ito ng ID ng YouTube channel na gusto mong subaybayan.
-#    Maaari kang maghanap online ng "how to find youtube channel id" para makuha ito.
+# 2. CHANNEL_ID: Ito ang ID ng YouTube channel na susubaybayan.
 #    Halimbawa: "UCBi2mrWuNuyYy4gbM6fU18Q" (Raffy Tulfo in Action)
-CHANNEL_ID = "UCBi2mrWuNuyYy4gbM6fU18Q"
-YOUTUBE_CHANNEL_URL = f"https://www.youtube.com/channel/{CHANNEL_ID}/live"
+CHANNEL_ID = "UCBi2mrWuNuyYy4gbM6fU18Q" 
 
-# 3. CHANNEL_NAME_IN_M3U: Palitan ito ng eksaktong pangalan ng channel
-#    na nakasulat sa iyong .m3u file. (Case-sensitive ito).
-CHANNEL_NAME_IN_M3U = "GMA 7"  # Palitan mo ito kung kinakailangan
+# 3. CHANNEL_NAME_IN_M3U: Ang eksaktong pangalan ng channel na nakasulat sa
+#    iyong .m3u file na papalitan ang URL. (Case-sensitive ito)
+CHANNEL_NAME_IN_M3U = "Raffy Tulfo in Action" # Palitan mo ito kung iba ang pangalan
+
+# === BAGONG PARAAN: PAGGAMIT NG INVIDIOUS INSTANCE ===
+# Gagamit tayo ng isang pampublikong Invidious server bilang "salamin".
+# Pwede kang pumili ng iba mula sa https://api.invidious.io/
+INVIDIOUS_INSTANCE = "https://yewtu.be"
+TARGET_URL = f"{INVIDIOUS_INSTANCE}/channel/{CHANNEL_ID}"
 
 # --- Mga values na awtomatikong kinukuha mula sa GitHub Actions ---
-# Hindi mo na kailangang baguhin ang mga ito kung tama ang iyong workflow file.
 GITHUB_REPO = "Jpao008/ph.m3u"
 PLAYLIST_PATH = "ph.m3u"
-
 
 # ==============================================================================
 # --- END OF CONFIGURATION - HUWAG NANG BAGUHIN ANG CODE SA IBABA NITO ---
 # ==============================================================================
 
 
-def get_youtube_live_m3u8(channel_url):
+def get_youtube_live_m3u8(target_url):
     """
-    Ito ang AUTOMATIC CHECK.
-    Direktang kinukuha ang live M3U8 URL. Kung hindi live ang channel,
-    magkakaroon ito ng error, at hihinto ang script para sa run na ito.
+    Ito ang AUTOMATIC CHECK (Invidious Method).
+    Susubukang kunin ang live stream URL sa pamamagitan ng isang Invidious instance.
     """
-    print(f"Automatically checking for live stream at: {channel_url}")
-
-    # User-Agent para magpanggap na isang totoong browser.
-    # Ito ay para subukang iwasan ang "confirm you're not a bot" error.
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-
+    print(f"Automatically checking for live stream via Invidious: {target_url}")
+    
     try:
-        # Idinagdag ang --user-agent sa command.
+        # Tumatakbo ang yt-dlp sa URL ng Invidious.
         result = subprocess.run(
-            ['yt-dlp', '--get-url', '--user-agent', user_agent, channel_url],
+            ['yt-dlp', '--get-url', target_url],
             capture_output=True,
             text=True,
             check=True
@@ -56,13 +52,13 @@ def get_youtube_live_m3u8(channel_url):
         # Kung may nakuha, ibig sabihin ay LIVE.
         for url in result.stdout.strip().split('\n'):
             if '.m3u8' in url:
-                print(f"✅ Live stream found! URL: {url}")
+                print(f"✅ Live stream found via Invidious! URL: {url}")
                 return url
-        print("❌ Live stream link (M3U8) not found in the output.")
+        print("❌ Live stream link (M3U8) not found. The channel might not be live.")
         return None
     except subprocess.CalledProcessError as e:
         # Kung pumasok dito, ibig sabihin HINDI LIVE o may ibang error.
-        print(f"ℹ️  Channel is likely not live or is blocked. Details: {e.stderr.strip()}")
+        print(f"ℹ️  Channel is likely not live or the Invidious instance failed. Details: {e.stderr.strip()}")
         return None
     except FileNotFoundError:
         print("CRITICAL ERROR: yt-dlp is not installed in the environment.")
@@ -82,23 +78,23 @@ def update_github_file(new_m3u8_url):
 
     try:
         response = requests.get(api_url, headers=headers)
-        response.raise_for_status()  # Ititigil kung may error tulad ng 404
+        response.raise_for_status() # Ititigil kung may error tulad ng 404
         file_data = response.json()
 
         current_content = base64.b64decode(file_data['content']).decode('utf-8')
         lines = current_content.splitlines()
-
+        
         updated_lines = []
         found_channel = False
         content_changed = False
-
+        
         i = 0
         while i < len(lines):
             line = lines[i]
             if line.strip().startswith("#EXTINF") and CHANNEL_NAME_IN_M3U in line:
                 found_channel = True
                 if i + 1 < len(lines):
-                    old_url = lines[i + 1]
+                    old_url = lines[i+1]
                     updated_lines.append(line)
                     if old_url != new_m3u8_url:
                         print(f"URL is different. Updating URL for '{CHANNEL_NAME_IN_M3U}'.")
@@ -128,7 +124,7 @@ def update_github_file(new_m3u8_url):
             "content": base64.b64encode(new_content.encode('utf-8')).decode('utf-8'),
             "sha": file_data['sha']
         }
-
+        
         update_response = requests.put(api_url, headers=headers, json=payload)
         update_response.raise_for_status()
         print("✅ Successfully updated the playlist on GitHub.")
@@ -140,8 +136,8 @@ def update_github_file(new_m3u8_url):
 
 
 if __name__ == "__main__":
-    print("--- Starting M3U8 Update Script (Direct Method with User-Agent) ---")
-    new_url = get_youtube_live_m3u8(YOUTUBE_CHANNEL_URL)
+    print("--- Starting M3U8 Update Script (Invidious Method) ---")
+    new_url = get_youtube_live_m3u8(TARGET_URL)
     if new_url:
         update_github_file(new_url)
     else:
