@@ -17,7 +17,7 @@ CHANNEL_ID = "UCBi2mrWuNuyYy4gbM6fU18Q"
 
 # 3. CHANNEL_NAME_IN_M3U: Ang eksaktong pangalan ng channel na nakasulat sa
 #    iyong .m3u file na papalitan ang URL. (Case-sensitive ito)
-CHANNEL_NAME_IN_M3U = "Raffy Tulfo in Action" # Palitan mo ito kung iba ang pangalan
+CHANNEL_NAME_IN_M3U = "GMA 7" # Palitan mo ito kung iba ang pangalan
 
 # === BAGONG PARAAN: PAGGAMIT NG INVIDIOUS INSTANCE ===
 # Gagamit tayo ng isang pampublikong Invidious server bilang "salamin".
