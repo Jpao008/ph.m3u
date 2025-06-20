@@ -1,38 +1,30 @@
-# Pangalan ng iyong workflow na makikita sa "Actions" tab
-name: Awtomatikong Pag-update ng M3U8 Link
+name: Auto Update YouTube M3U8
 
 on:
-  # Ito ang schedule. Tumatakbo ito kada oras, sa ika-30 minuto ng bawat oras.
-  # Pwede mong palitan ang '30' sa ibang numero (0-59).
   schedule:
-    - cron: '30 * * * *'
-    
-  # Pinapayagan kang patakbuhin ito nang manu-mano para sa testing.
-  workflow_dispatch:
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:     # Manual trigger (optional)
 
 jobs:
-  # Pangalan ng job
-  update-live-stream:
-    # Gagamit ng isang virtual machine na may Ubuntu Linux
+  update-m3u8:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Kinukuha ang kopya ng iyong repository
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-      # Step 2: Inihahanda ang Python environment
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.11"
 
-      # Step 3: Ini-install ang mga kailangan ng script
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install yt-dlp requests
+          pip install requests
+          pip install yt-dlp
 
-      # Step 4: Pinapatakbo ang iyong Python script
-      - name: Run the M3U8 update script
-        run: python update_script.py
+      - name: Run Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python main.py
