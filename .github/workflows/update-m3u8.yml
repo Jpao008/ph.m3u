@@ -26,5 +26,5 @@ jobs:
 
       - name: Run Script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_PAT: ${{ secrets.MY_PAT }}
         run: python update_script.py
