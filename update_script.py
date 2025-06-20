@@ -6,7 +6,7 @@ import time
 import random
 
 # === CONFIGURATION ===
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Use GitHub Actions secrets
+GITHUB_TOKEN = os.getenv("MY_PAT")  # Use GitHub Actions secrets
 CHANNEL_ID = "UCBi2mrWuNuyYy4gbM6fU18Q"
 YOUTUBE_CHANNEL_URL = f"https://www.youtube.com/channel/{CHANNEL_ID}/live"
 CHANNEL_NAME_IN_M3U = "GMA 7"
