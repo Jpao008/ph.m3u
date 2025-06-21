@@ -233,7 +233,7 @@ def update_github_file(new_m3u8_url):
 
         put_response = requests.put(api_url, headers=headers, json=payload)
         put_response.raise_for_status()
-        print("✅ GitHub playlist updated.")
+        print("✅ GMA 7 GitHub playlist updated.")
     except requests.exceptions.RequestException as e:
         print(f"❌ GitHub update error: {e}")
 
