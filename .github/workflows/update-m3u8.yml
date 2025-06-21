@@ -3,7 +3,7 @@ name: Update GMA 7 M3U8 Live Stream Link
 on:
   schedule:
     - cron: "0 * * * *"  # Runs every hour
-  workflow_dispatch:     # Manual trigger (optional)
+  workflow_dispatch:     # Manual trigger
 
 jobs:
   update-m3u8:
@@ -18,13 +18,19 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Dependencies
+      - name: Install yt-dlp and other tools
         run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg  # optional but helpful
           python -m pip install --upgrade pip
-          pip install requests
-          pip install yt-dlp
+          pip install yt-dlp requests
+
+      - name: Debug IP and Headers (Optional)
+        run: |
+          curl ifconfig.me
+          curl -I https://www.youtube.com
 
       - name: Run Script
         env:
-          MY_PAT: ${{ secrets.MY_PAT }}
+          GITHUB_TOKEN: ${{ secrets.MY_PAT }}
         run: python update_script.py
