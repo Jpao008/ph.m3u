@@ -1,0 +1,36 @@
+name: Update GMA7 M3U8 Live Stream Link
+
+on:
+  # Runs on a schedule (every hour at the 5-minute mark)
+  schedule:
+    - cron: '5 * * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-gma-link:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 2. Sets up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. Installs all the required Python packages
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-api-python-client yt-dlp PyGithub requests
+
+      # 4. Runs the Python script to perform the update
+      - name: Run the M3U8 update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python update_scriptKapamilya.py
