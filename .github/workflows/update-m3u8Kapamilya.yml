@@ -1,36 +1,36 @@
 name: Update Kapamilya M3U8 Live Stream Link
 
 on:
-  # Runs on a schedule (every hour at the 5-minute mark)
   schedule:
-    - cron: '5 * * * *'
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:     # Manual trigger
 
 jobs:
-  update-gma-link:
+  update-m3u8:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-      # 2. Sets up Python
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.11"
 
-      # 3. Installs all the required Python packages
-      - name: Install dependencies
+      - name: Install yt-dlp and other tools
         run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg  # optional but helpful
           python -m pip install --upgrade pip
-          pip install google-api-python-client yt-dlp PyGithub requests
+          pip install yt-dlp requests
 
-      # 4. Runs the Python script to perform the update
-      - name: Run the M3U8 update script
+      - name: Debug IP and Headers (Optional)
+        run: |
+          curl ifconfig.me
+          curl -I https://www.youtube.com
+
+      - name: Run Script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python update_scriptKapamilya.py
+          GITHUB_TOKEN: ${{ secrets.MY_PAT }}
+        run: python update_script.py
