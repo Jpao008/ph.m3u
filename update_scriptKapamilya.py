@@ -4,6 +4,7 @@ import subprocess
 import base64
 import time
 import random
+import re
 
 # === CONFIGURATION ===
 GITHUB_TOKEN = os.getenv("MY_PAT")
@@ -148,9 +149,31 @@ USER_AGENTS = [
     "Mozilla/5.0 (Linux; Android 9; Haier LE55U6900HQGA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.65 Safari/537.36",
 ]
 
-
 def get_random_user_agent():
     return random.choice(USER_AGENTS)
+
+def fallback_scrape_m3u8(channel_url, user_agent=None):
+    headers = {
+        "User-Agent": user_agent or "Mozilla/5.0",
+        "Accept-Language": "en-US,en;q=0.9",
+        "DNT": "1"
+    }
+    try:
+        response = requests.get(channel_url, headers=headers, timeout=10)
+        response.raise_for_status()
+        html = response.text
+
+        match = re.search(r'"hlsManifestUrl":"(https:[^"]+\.m3u8[^"]*)"', html)
+        if match:
+            m3u8_url = match.group(1).replace("\\u0026", "&").replace("\\", "")
+            print(f"✅ Fallback found M3U8: {m3u8_url}")
+            return m3u8_url
+        else:
+            print("❌ Fallback failed: No hlsManifestUrl found.")
+            return None
+    except Exception as e:
+        print(f"⚠️ Fallback error: {e}")
+        return None
 
 def get_youtube_live_m3u8(channel_url, retries=3):
     print(f"Checking for live stream at: {channel_url}")
@@ -169,14 +192,16 @@ def get_youtube_live_m3u8(channel_url, retries=3):
                 if '.m3u8' in url:
                     print(f"✅ Found M3U8: {url}")
                     return url
-            print("❌ No M3U8 found.")
-            return None
+            print("❌ No M3U8 found in yt-dlp result.")
         except subprocess.CalledProcessError:
             print("ℹ️ yt-dlp failed (possibly not live). Retrying...")
         except subprocess.TimeoutExpired:
             print("⚠️ Timeout expired. Retrying...")
         time.sleep(random.randint(3, 8))
-    return None
+
+    print("❌ yt-dlp exhausted. Trying fallback scrape...")
+    fallback_url = fallback_scrape_m3u8(channel_url, user_agent)
+    return fallback_url
 
 def update_github_file(new_m3u8_url):
     if not GITHUB_TOKEN:
