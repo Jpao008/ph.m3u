@@ -4,7 +4,7 @@ import subprocess
 import base64
 import time
 import random
-
+import re
 # === CONFIGURATION ===
 GITHUB_TOKEN = os.getenv("MY_PAT")
 CHANNEL_ID = "UCKL5hAuzgFQsyrsQKgU0Qng"
