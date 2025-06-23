@@ -79,5 +79,5 @@ https://untv.mmdlive.lldns.net/untv/0251dac212a94932ae3563150cbb3788/untvweb.m3u
 https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RTMASEAN.my" tvg-logo="https://i.imgur.com/skAiUxg.png" group-title="News",RTM ASEAN
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
-#EXTINF:-1 tvg-id="RTMASEAN.my" tvg-logo="" group-title="News",GTV
-https://gtv.fflame143.workers.dev/stream.m3u8?uid=1682317056&u=FiliTV&p=ea3e07a61f5af654b1bc96090db16bf246337738d5fceae3401a1205f2f8a60f
+#EXTINF:-1 tvg-id="RTMASEAN.my" tvg-logo="" group-title="News",US ABC
+http://45.12.33.35:8080/live/Navarro/gDTSXxp/45726.m3u8?token=HRYJVUELR1tGUQcBAQkLBQhQB1EGAwlUUwEGUFYFVwVeUllXVgFVUwUXShdARUtRUF5vW1RDClcAAAYCTUYTEgNGPl1WQV9DVQRfDAcTFRZFWl1XElsATxdHXVBDXggUClhNFlcbEQQWWwdZbFVcQlhQVRAKD0UPWRsWWw87AgQLVQ9QEFlHUEYZRFxAQRsOE3BfXEYEQgRQF31aBwsUDAdACFtcQwQPABUlWl5cTFpYUFFGWQ5eEBVjUVcJCgkNCVMYFGEMCRQQXAlbQBMVFlNaREBRFVVBD1lBWA1IRAIJQQ9AQBpHW0ZlLhcfE1xMRVZeQVkOXkEPFVkHFFxETURdEmtABhYVFlAHWFZDGw4TAxIeEgxRG2pUW1oPAQUVD1sPRxBZR1BGGURYXF9QQF5Bb0JZBRJZW0JYWBw=
