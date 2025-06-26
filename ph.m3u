@@ -9,8 +9,10 @@ http://filex.tv:8080/live/zulfikarsh01/000576/290852.m3u8
 http://defaultgen.com:3050/live/ldiaz2272@gmail.com/eGBnMqYRac/558780.m3u8
 #EXTINF:-1 tvg-id="America.ph" tvg-logo="https://e7.pngegg.com/pngimages/764/685/png-clipart-youtube-horror-film-scary-movie-comedy-horror-television-text.png",Horror Movies
 https://linear-82.frequency.stream/dist/localnow/82/hls/master/playlist_1280x720.m3u8
-#EXTINF:-1 tvg-id="America.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/One_News_%282020%29.svg",One News
+///////EXTINF:-1 tvg-id="America.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/One_News_%282020%29.svg",One///////// News
 http://filex.tv:8080/live/zulfikarsh01/000576/290886.m3u8
+#EXTINF:-1 tvg-id="America.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/One_News_%282020%29.svg",One News
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66824.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/04fbf8b3-296c-42a1-b3ff-ef48d7e3444c/dgm7t35-d2769539-df85-4f79-ad95-88754b1ef291.jpg/v1/fill/w_1280,h_721,q_75,strp/pluto_tv_anime_all_day__logo_2015_present__by_west_harris_dgm7t35-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIxIiwicGF0aCI6IlwvZlwvMDRmYmY4YjMtMjk2Yy00MmExLWIzZmYtZWY0OGQ3ZTM0NDRjXC9kZ203dDM1LWQyNzY5NTM5LWRmODUtNGY3OS1hZDk1LTg4NzU0YjFlZjI5MS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Igtb14R1WHXLfW6CdUmD_s7J8PBh5B0pGYKkFrBLvl0",Anime All Day!
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356
 #EXTINF:0 tvg-country="PH" tvg-logo="https://www.vhv.rs/dpng/d/3-33733_asian-box-hd-png-download.png",Asian Box
@@ -36,17 +38,17 @@ https://cdn4.skygo.mn/live/disk1/Dreambox/HLSv3-FTA/Dreambox.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DZBB594.svg/1024px-DZBB594.svg.png",DZBB Radyo
 https://stream.gmanews.tv/ioslive/livestream/playlist.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/DZMM_630_2025.svg/1024px-DZMM_630_2025.svg.png",DZMM Radyo
-http://mu3241218.oknirvana.club:8880/live/vMvVyANLrh/tUhHt9g7M8/50123.m3u8
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50123.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/1024px-ESPNews.svg.png",ESPN News
 https://fl3.moveonjoy.com/ESPN_NEWS/index.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pluto_TV_logo_2024.svg/1024px-Pluto_TV_logo_2024.svg.png",Pluto TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faf9ddfcc1f200070a5932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f176-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=68c3c9ce-0e68-43fa-ade2-43491d9d88e2
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/GMA_Network_2024_logo.png/revision/latest/scale-to-width-down/1000?cb=20250327013147",GMA 7
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1750928043/ei/S7ZcaOa3MsCFg8UPsL-WkQM/ip/152.32.112.145/id/NuSMQSltszk.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/bui/AY1jyLOHbLf7m4CF7GLKC7N-g7qTzXqKKDLA4IWGg50fhEyyk_5xQswd9YpzAXC6jyETpIICk1Bm8ViG/spc/l3OVKRAVXMEqZEDuWwq4OzaINaC2Nz7e2k00PRERuVlK282Vujvwqdh5PkM9ZAPO-En4-SO8R2s/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51331020/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAKk8REyQh856rb94MFK0IGZB77T2xDX9mWjd54P7tSprAiEA-UcVHCQTLnAOrT5IB6Ax5lXJ4WDE-SBzeV0ysCgOUwY%3D/file/index.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/GMA_News_Alternate_Logo_%28with_2024_GMA_logo%29.png/revision/latest/scale-to-width-down/1000?cb=20250225121307",GMA NEWS TV
+#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/GMA_News_Alternate_Logo_%28with_2024_GMA_logo%29.png/revision/latest/scale-to-width-down/1000?cb=20250225121307",GMA INTEGRATED NEWS
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1750928039/ei/R7ZcaKr8MciEg8UPhM2A8Aw/ip/152.32.112.145/id/nrgExyDuyPY.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51478322/txs/51478320%2C51478321%2C51478322/hfr/1/bui/AY1jyLPZN5AzH-3mGf1WC3k0vEVNcGzVSedtyacO2DHaerJGYB9qTDuRapT3rIcqcsXrmkoGda2W-fRW/spc/l3OVKRHARg87FhM0NTM7v7okNYSTzpzOWohRssTVcz7Icu8r7lECfvWNbGz7yT4WZOzU1jQISZMzeQ/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51331020/dover/11/itag/0/playlist_type/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhANT9OfBb-g1rvjSRAA7iCd4nbc7ZV43cCL9P6M4Bj3p-AiEA3ERAoHVHmFvNMQ79e4q5eRNhTOCGd5TFKtVGmh8R-N8%3D/file/index.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/1024px-HBO_logo.svg.png",HBO
-https://liveorigin01.hbogoasia.com:8443/origin/live/main/HBO/3.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYWkzZmQxb2gzMjV5LmNsb3VkZnJvbnQubmV0L29yaWdpbi9saXZlL21haW4vKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTYyNjI2MDk0Mn19fV19&Signature=W6PMolqOXv4fWAyCza2Bg-IWxJhbE7LVMLNA7nLpL7MCmslEfiv00sO-cPFnUDydx6C5UgnBR6v-WnI8fEb4yOFQB1L7rX5~h3zsZuThKUpZSY4WodLoKsh5ow8ZtlUKyCHpL8IANuyRMT0N3mxc44N5St3qRVs1dY8uu8ELtdxYEJwAMSCc8WS9gvbXZGJSpWIAg~IbPOHb2fSddViEqALIdSDpmde-a7cmjQUo8JNuuqdFlUR4NHpB9G-KD9FPgpLVHiG9f20Ts2YaR7vrP9Zmlg4u5LYtWxK~gb7Td71oER5wwvbcMMavd1BaRh8Y636i4DixwKkSP15LwDEoJA__&Key-Pair-Id=APKAJFBTWETXLROKW43A
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/61280.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/INC_TV_New_Logo.png/1024px-INC_TV_New_Logo.png",INC TV
 https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjDVFehyTkLg2267mWCxbNvQ0fNpsx1WIIw&s",MindaNow TV
@@ -57,8 +59,10 @@ https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 //http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/7226/index.m3u8
 #EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA TV USA
 http://lb51.xxip9.top:25461/live/bd2Jep/404051/20073.m3u8?token=ThFcUhFaQQwRVAJSUQYAAAAAV1MFAwFUVAZbVw0LAVNUUFdRAQFbVFEQHkdBQURQV1g7WFQWCgBTUlQAFRFGQVBBa1oGEFkUAgEEUQAAFBkUQQ1cVRYKAk9AE1pdEQkQBwsNA1YQTxRWSkYAQFtXWWlRAUdZV1UQWQwWX1UfEV1bbFBWD1MNUhEIEFUQGRRcRUVGC15BXF5PQAFaTUFSRlARDhFTAFAHER4QBl1AWEFETEYLEmR4EE9ABktNVl1BXFxaEVgQDgVGChBJEFxFakRQF0VCUVFfBhBBCRsDER4XXlVLPVEMWF1XURFbWlhGFA9GBBIYEl8MDApHVkFsQlxXFglAB1YGCwEQGA==
-#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1024px-NHK_World.svg.png",NHK World
+///EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1024px-NHK_World.svg.png",NHK ///World
 https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1024px-NHK_World.svg.png",NHK World
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50121.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://banner2.cleanpng.com/20181111/cvh/kisspng-logo-nick-jr-television-pop-max-tiny-pop-nick-jr-1713924014540.webp",Nick JR.
 https://fl5.moveonjoy.com/NICK_JR/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/SpongeBob_SquarePants_character.png",Spongebob All day!
@@ -72,7 +76,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Paramount_Network_2024.svg/1024px-Paramount_Network_2024.svg.png",Paramount Network
 https://fl3.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cd/PBA_Rush_logo.png/revision/latest?cb=20161115101642",PBA RUSH
-http://45.88.0.12:8080/live/zulfikarsh01/000576/290890.m3u8
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50127.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Pop_Corn_TV.png/revision/latest/scale-to-width-down/175?cb=20200724233242&path-prefix=es",Popcorn
 https://cdn4.skygo.mn/live/disk1/Popcorn/HLSv3-FTA/Popcorn.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/SMNI39.jpg",SMNI
@@ -104,6 +108,35 @@ http://lb53.xxip9.top:25461/live/bd2Jep/404051/101824.m3u8?token=ThFcUhFaQQwRVAR
 http://lb53.xxip9.top:25461/live/bd2Jep/404051/101825.m3u8?token=ThFcUhFaQQwRCgZUVgJXAANXVAEABwRTB1UGUAgGBQcBBgZXAFYCD1IQHkdBQURQV1g7WFQWCgNTU1sBDB8RR0ZWRmwLVkEMEQMBUwYHAxcaFxBYXVESCFNOQUNQVxEIFwECAlUHQRoRV0oRV0dYVFpqAFRGXVNXQVgNRlVfHxBaXWtXB18CWFcQCEcCFxoXX0YUEwpaRV4PTkFRUEdBU0FWFglAA1sOBBAeR1FaQ1tCRx0TChZgekFOQVZBR1ZcRlpbXUAIQVsARwpHHhdfRmlHAUJERlVTDgcREQMRAxAZEVlSGm0AWV1cVwZGXFlbRRdeEwUWHBAODQ1aTVxBbUVaUBFYEFUACgUDR08=
 #EXTINF:-1 tvg-country="PH" tvg-logo="",GMA Pinoy TV
 http://lb53.xxip9.top:25461/live/bd2Jep/404051/101826.m3u8?token=ThFcUhFaQQwRBlBVU1MGVAIFUFcDVlYGVQZVC10HClMBBQQKVVRSD1UQHkdBQURQV1g7WFQWCgNTU1sBDx8RR0ZWRmwLVkEMEQMBUwYHAxcaFxBYXVESCFNOQUNQVxEIFwoABlUKQRoRV0oRV0dYVFpqAFRGXVNXQVgNRlVfHxBaXWtXB18CWFcQCEcCFxoXX0YUEwpaRV4PTkFRUEdBU0FWFglAB1MEBRAeR1FaQ1tCRx0TChZgekFOQVZBR1ZcRlpbXUAIQVsARwpHHhdfRmlHAUJERlVTDgcREQMRAxAZEVlSGm0AWV1cVwZGXFlbRRdeEwUWHBAODQ1aTVxBbUVaUBFYEFUCAgELR08=
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Food Network
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66828.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",TAP TV
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66826.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",TV 5
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66821.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Animal Planet
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66820.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",UAAP Varsity
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50118.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Cinema One
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50119.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Animax
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50122.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",GMA NEWS TV
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50125.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Knowledge TV
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50129.m3u8
+
+
+
+
+
+
+
+
+
+
+
 
 
 
