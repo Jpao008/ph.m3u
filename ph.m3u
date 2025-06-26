@@ -53,7 +53,7 @@ https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd651
 https://streams1.comclark.com/overlay/mindanow/playlist.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Moviebox_2019.png/revision/latest?cb=20250327002334",MovieBox
 https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
-//////////#/EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA TV USA
+///////////EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA-TV USA
 //http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/7226/index.m3u8
 #EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA TV USA
 http://lb51.xxip9.top:25461/live/bd2Jep/404051/20073.m3u8?token=ThFcUhFaQQwRVAJSUQYAAAAAV1MFAwFUVAZbVw0LAVNUUFdRAQFbVFEQHkdBQURQV1g7WFQWCgBTUlQAFRFGQVBBa1oGEFkUAgEEUQAAFBkUQQ1cVRYKAk9AE1pdEQkQBwsNA1YQTxRWSkYAQFtXWWlRAUdZV1UQWQwWX1UfEV1bbFBWD1MNUhEIEFUQGRRcRUVGC15BXF5PQAFaTUFSRlARDhFTAFAHER4QBl1AWEFETEYLEmR4EE9ABktNVl1BXFxaEVgQDgVGChBJEFxFakRQF0VCUVFfBhBBCRsDER4XXlVLPVEMWF1XURFbWlhGFA9GBBIYEl8MDApHVkFsQlxXFglAB1YGCwEQGA==
