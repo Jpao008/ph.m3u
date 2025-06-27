@@ -86,7 +86,7 @@ https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1751000041/ei/i
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/Cl_tv_36_ph.png/revision/latest/scale-to-width-down/1000?cb=20130823135759",CLTV!
 https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/09/UNTV2016.svg/revision/latest?cb=20241111073929",UNTV
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1751003645/ei/nd1daNinFOCk4t4Puua6wQU/ip/152.32.112.145/id/jVj1K5haRRY.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/bui/AY1jyLNpG68cbgEAFle4sIlSvADr1n9pOxebjiBCkkWFxMaXHY-MXsamB_c7f8jY3F84DBnakw1D-jwC/spc/l3OVKaooHkuiag3CX7z8F_t_1Bx8k7xWKLH5Q_aP_o92DCvpgZShjtMXPmpdNUWxRwwUFNVcbuiHOA/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51331020/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgPMUHGv1-DnVeyKvAWqBP0CwouikE4_p6eA4ZynPgwg8CIQD32DFEOLq0xLYtb3bNI3RDZXowRlHldTWaON5z_fVT8Q%3D%3D/file/index.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1751007240/ei/qOtdaKPPDYGQssUP1O_nEQ/ip/152.32.112.145/id/6_gVL5om3nI.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/bui/AY1jyLO5TJhDDN84pg2I-EzwBpubBaJwDOcw6JPgs2N_lO7nuCnKoF3PyCpOWd1fYzQUnRLEUnfx2kne/spc/l3OVKdXaOav9s77pY-BmgmwM_gmwFWkhT0xrH3TEqum44j6JYfIrwE1CYZ-gAXIgl2GCcFMJnFoEVw/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51331020/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAJPtheN936g5wtwZLnJ8VFQWDSMhzCkjxH5A3a99_QIUAiEAk5_7GhHwWcpQ79zgzBSHvK3K4fSKR1ktzruKLWv3Y6M%3D/file/index.m3u8
 #EXTINF:-1 tvg-id="EWTN.us@AsiaPacific" tvg-logo="https://i.imgur.com/sua70RO.png" group-title="Religious",EWTN Asia
 https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RTMASEAN.my" tvg-logo="https://i.imgur.com/skAiUxg.png",RTM ASEAN
@@ -126,7 +126,6 @@ http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50122.m3u8
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50125.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="",Knowledge TV
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50129.m3u8
-
 
 
 
