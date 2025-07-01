@@ -1,20 +1,18 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="00sReplay" tvg-logo="" group-title="Undefined",00s Replay
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62ba60f059624e000781c436/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c25e430-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1b7de8e4-d114-4438-b098-6f7aee77b4be
-#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/A2Z_Channel_11_Logo.png",A2Z
+#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/f/f8/A2Z_Channel_11_Logo.png",A2Z
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8
+#EXTINF:-1 tvg-country="US" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2f/ABC-2021-LOGO.svg/revision/latest?cb=20220228011330",US ABC
+http://45.12.33.35:8080/live/Navarro/gDTSXxp/45726.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a2/ANC-2015_%28rev2%29.svg/revision/latest/scale-to-width-down/1000?cb=20151026094948",ANC
 http://filex.tv:8080/live/zulfikarsh01/000576/290852.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/67/BuKo_Channel_%282021-.n.v.%29.png/revision/latest?cb=20210720055409",Buko Channel
-http://defaultgen.com:3050/live/ldiaz2272@gmail.com/eGBnMqYRac/558780.m3u8
-#EXTINF:-1 tvg-id="America.ph" tvg-logo="https://e7.pngegg.com/pngimages/764/685/png-clipart-youtube-horror-film-scary-movie-comedy-horror-television-text.png",Horror Movies
-https://linear-82.frequency.stream/dist/localnow/82/hls/master/playlist_1280x720.m3u8
-///////EXTINF:-1 tvg-id="America.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/One_News_%282020%29.svg",One///////// News
-http://filex.tv:8080/live/zulfikarsh01/000576/290886.m3u8
-#EXTINF:-1 tvg-id="America.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/One_News_%282020%29.svg",One News
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66824.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/04fbf8b3-296c-42a1-b3ff-ef48d7e3444c/dgm7t35-d2769539-df85-4f79-ad95-88754b1ef291.jpg/v1/fill/w_1280,h_721,q_75,strp/pluto_tv_anime_all_day__logo_2015_present__by_west_harris_dgm7t35-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIxIiwicGF0aCI6IlwvZlwvMDRmYmY4YjMtMjk2Yy00MmExLWIzZmYtZWY0OGQ3ZTM0NDRjXC9kZ203dDM1LWQyNzY5NTM5LWRmODUtNGY3OS1hZDk1LTg4NzU0YjFlZjI5MS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Igtb14R1WHXLfW6CdUmD_s7J8PBh5B0pGYKkFrBLvl0",Anime All Day!
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Animax
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50122.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/04fbf8b3-296c-42a1-b3ff-ef48d7e3444c/dgm7t35-d2769539-df85-4f79-ad95-88754b1ef291.jpg/v1/fill/w_1280,h_721,q_75,strp/pluto_tv_anime_all_day__logo_2015_present__by_west_harris_dgm7t35-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIxIiwicGF0aCI6IlwvZlwvMDRmYmY4YjMtMjlk2Yy00MmExLWIzZmYtZWY0OGQ3ZTM0NDRjXC9kZ203dDM1LWQyNzY5NTM5LWRmODUtNGY3OS1hZDk1LTg4NzU0YjFlZjI5MS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Igtb14R1WHXLfW6CdUmD_s7J8PBh5B0pGYKkFrBLvl0",Anime All Day!
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Animal Planet
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66820.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://www.vhv.rs/dpng/d/3-33733_asian-box-hd-png-download.png",Asian Box
 https://cdn4.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8
 #EXTINF:-1 tvg-id="ATBS.ph" tvg-logo="https://phcorner.org/attachments/atbs-global-webp.3753518/",ATBS
@@ -23,14 +21,20 @@ https://live20.bozztv.com/giatv/giatv-ATBSGLOBAL/ATBSGLOBAL/playlist.m3u8
 https://cdn4.skygo.mn/live/disk1/Bloomberg/HLSv3-FTA/Bloomberg.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://banner2.cleanpng.com/20180825/jkx/kisspng-boomerang-logo-vector-graphics-bumper-television-boomerang-1713948935498.webp",Boomerang
 https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
-#EXTINF:-1 tvg-id="Cartoonjr.ph" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/3/37/CartoonNetworkJr.png/revision/latest?cb=20220118163617",CartoonNetwork JR.
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=33
+#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/67/BuKo_Channel_%282021-.n.v.%29.png/revision/latest?cb=20210720055409",Buko Channel
+http://defaultgen.com:3050/live/ldiaz2272@gmail.com/eGBnMqYRac/558780.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://banner2.cleanpng.com/lnd/20241123/zi/9b87cb0f19325ef2769de9882831ca.webp",Cartoon Network
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
-#EXTINF:-1 tvg-id="Cinemax.ph" tvg-logo="https://e1.pngegg.com/pngimages/887/112/png-clipart-tv-channel-icons-cinemax-black-cinemax-logo-thumbnail.png",Cinemax
-http://50.7.234.10:8278/cinemax_twn/playlist.m3u8?tid=MCEC1614519816145198&ct=19193&tsum=e635ddeeb683b5cbcda1319d0cc18f84
+#EXTINF:-1 tvg-id="Cartoonjr.ph" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/3/37/CartoonNetworkJr.png/revision/latest?cb=20220118163617",CartoonNetwork JR.
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=33
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f6/CCTN_Cebu_logo.png",CCTN 47
 http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8
+#EXTINF:-1 tvg-id="Cinemax.ph" tvg-logo="https://e1.pngegg.com/pngimages/887/112/png-clipart-tv-channel-icons-cinemax-black-cinemax-logo-thumbnail.png",Cinemax
+http://50.7.234.10:8278/cinemax_twn/playlist.m3u8?tid=MCEC1614519816145198&ct=19193&tsum=e635ddeeb683b5cbcda1319d0cc18f84
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Cinema One
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50119.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/Cl_tv_36_ph.png/revision/latest/scale-to-width-down/1000?cb=20130823135759",CLTV!
+https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/1024px-2024_Disney_Channel_text_logo.svg.png",Disney CHannel
 https://fl5.moveonjoy.com/DISNEY/index.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1b/Drem-multimedia-logo.png",DreamBox
@@ -41,90 +45,82 @@ https://stream.gmanews.tv/ioslive/livestream/playlist.m3u8
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50123.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/1024px-ESPNews.svg.png",ESPN News
 https://fl3.moveonjoy.com/ESPN_NEWS/index.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pluto_TV_logo_2024.svg/1024px-Pluto_TV_logo_2024.svg.png",Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faf9ddfcc1f200070a5932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f176-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=68c3c9ce-0e68-43fa-ade2-43491d9d88e2
+#EXTINF:-1 tvg-id="EWTN.us@AsiaPacific" tvg-logo="https://i.imgur.com/sua70RO.png" group-title="Religious",EWTN Asia
+https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Food Network
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66828.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/GMA_Network_2024_logo.png/revision/latest/scale-to-width-down/1000?cb=20250327013147",GMA 7
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1751403647/ei/H_hjaMbmLd_t2roPpZLn6QY/ip/103.167.66.208/id/Cc-4chGTTjM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-hoa7rn7z.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AY1jyLP-YAAO4Pc2EUwtZM48gQxq8TDJbgO_NRLtRmm9xT2LZSnLjWCCOltij9RRpcnYqXqZtAJOpvgT/spc/l3OVKRlwI1NnBHl6n5O9vfvgsrueEqlSQTxx1AEu7OlsqhRuizwpGEaz9V66IbInWrI/vprv/1/playlist_type/DVR/initcwndbps/1650000/met/1751382049,/mh/Iu/mm/44/mn/sn-hoa7rn7z/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912/mt/1751381550/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRAIgFvtpAHYm4QQNlA5rqR45za02gl7b2YIfbTZ1esrv2F0CIFRPDzC-zdbggwUuHAHl2aMxEjr9C4tCtA2-lMJCEjsk/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAMFIKOJy_dZ8S_lIVII3Q0N1D3C8dGj0l9_bJKF8dJHXAiBKwf97Jx1Ur5LpVWm3OpP9YBhfYP2RPOSyPGN9FT7msA%3D%3D/playlist/index.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/GMA_News_Alternate_Logo_%28with_2024_GMA_logo%29.png/revision/latest/scale-to-width-down/1000?cb=20250225121307",GMA INTEGRATED NEWS
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1751403535/ei/r_djaK_7HuGW1d8PlPPWoQ4/ip/103.167.66.208/id/hCgRH-sqycM.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-hoa7kn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AY1jyLMayi5aF0Fbzjv0BTdwDTTtfcPHMXQTgHAO_kX3ClvYpNuIv6zZz1xAiAXflrXksgd1WHOcpAOj/spc/l3OVKVRZK8aBjD4NdUgpARvigH6n0WfLwDoQfy0Dp7d56awn5ZO0hYmsvKSZboOQJxY/vprv/1/playlist_type/DVR/initcwndbps/1623750/met/1751381937,/mh/pz/mm/44/mn/sn-hoa7kn76/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912/mt/1751381550/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAOFAiLj5h0Y9Bwmr74tjqRSxhk8BarELqzZyZ9w7B6GEAiEAhqzNZicnVAC35mzItywb2zW3hQtExmCzA7Db33YQUK8%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhANW5h98ltgAqGkFodTCdsiYagt37HDUdTq0ehn2Nl8bsAiEAwkX4A0GSdxI2V-LjCiIZilHcV6nLwW_Q6700zXJRgEs%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",GMA Life TV
+http://lb53.xxip9.top:25461/live/bd2Jep/404051/101825.m3u8?token=ThFcUhFaQQwRCgZUVgJXAANXVAEABwRTB1UGUAgGBQcBBgZXAFYCD1IQHkdBQURQV1g7WFQWCgNTU1sBDB8RR0ZWRmwLVkEMEQMBUwYHAxcaFxBYXVESCFNOQUNQVxEIFwECAlUHQRoRV0oRV0dYVFpqAFRGXVNXQVgNRlVfHxBaXWtXB18CWFcQCEcCFxoXX0YUEwpaRV4PTkFRUEdBU0FWFglAA1sOBBAeR1FaQ1tCRx0TChZgekFOQVZBR1ZcRlpbXUAIQVsARwpHHhdfRmlHAUJERlVTDgcREQMRAxAZEVlSGm0AWV1cVwZGXFlbRRdeEwUWHBAODQ1aTVxBbUVaUBFYEFUACgUDR08=
+#EXTINF:-1 tvg-country="PH" tvg-logo="",GMA NEWS TV
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50125.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",GMA Pinoy TV
+http://lb53.xxip9.top:25461/live/bd2Jep/404051/101826.m3u8?token=ThFcUhFaQQwRBlBVU1MGVAIFUFcDVlYGVQZVC10HClMBBQQKVVRSD1UQHkdBQURQV1g7WFQWCgNTU1sBDx8RR0ZWRmwLVkEMEQMBUwYHAxcaFxBYXVESCFNOQUNQVxEIFwoABlUKQRoRV0oRV0dYVFpqAFRGXVNXQVgNRlVfHxBaXWtXB18CWFcQCEcCFxoXX0YUEwpaRV4PTkFRUEdBU0FWFglAB1MEBRAeR1FaQ1tCRx0TChZgekFOQVZBR1ZcRlpbXUAIQVsARwpHHhdfRmlHAUJERlVTDgcREQMRAxAZEVlSGm0AWV1cVwZGXFlbRRdeEwUWHBAODQ1aTVxBbUVaUBFYEFUCAgELR08=
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/1024px-HBO_logo.svg.png",HBO
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/61280.m3u8
+#EXTINF:-1 tvg-id="America.ph" tvg-logo="https://e7.pngegg.com/pngimages/764/685/png-clipart-youtube-horror-film-scary-movie-comedy-horror-television-text.png",Horror Movies
+https://linear-82.frequency.stream/dist/localnow/82/hls/master/playlist_1280x720.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/INC_TV_New_Logo.png/1024px-INC_TV_New_Logo.png",INC TV
 https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/1024px-Kapamilya_Channel_Logo_2020.svg.png",Kapamilya Live
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1751403594/ei/6vdjaP-WMreD2roPg8ym4As/ip/103.167.66.208/id/_7uPlH6Yh18.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-hoa7kn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/ph/bui/AY1jyLNCW2Ctv_pUFVhswly5ehq_wToMNUOiV7KcUwEDwSqbv2FZy540hbHjfQhoYSJ1Ygh_Wxgsahrj/spc/l3OVKRl_lEtTYw7T7sv3gjgcEUHgrF26s7D8DTyrYAlVPD-QuN6-Qz2QTm_WvCVyNA_X6Q/vprv/1/playlist_type/DVR/initcwndbps/1650000/met/1751381996,/mh/iQ/mm/44/mn/sn-hoa7kn76/ms/lva/mv/m/mvi/5/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51331020/mt/1751381550/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAIULrGPQFMfAVI8KGOfzWQh8lQdJCBLh_WaUX5ulGgeYAiEApPJzBJvcqT2d1Ccc255o-GK4ghKeMmswqvGWpqWnL1Q%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgOPkCw_sOq66SuPJvLXKyoectZFYG34zWnY5q8S_eNTMCIAHojY--OPH5cdwc81EPnEN11g8z_OYco-k200AjOdGO/playlist/index.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",Knowledge TV
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50129.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjDVFehyTkLg2267mWCxbNvQ0fNpsx1WIIw&s",MindaNow TV
 https://streams1.comclark.com/overlay/mindanow/playlist.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Moviebox_2019.png/revision/latest?cb=20250327002334",MovieBox
 https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
-///////////EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA-TV USA
-//http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/7226/index.m3u8
 #EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA TV USA
-http://lb51.xxip9.top:25461/live/bd2Jep/404051/20073.m3u8?token=ThFcUhFaQQwRVAJSUQYAAAAAV1MFAwFUVAZbVw0LAVNUUFdRAQFbVFEQHkdBQURQV1g7WFQWCgBTUlQAFRFGQVBBa1oGEFkUAgEEUQAAFBkUQQ1cVRYKAk9AE1pdEQkQBwsNA1YQTxRWSkYAQFtXWWlRAUdZV1UQWQwWX1UfEV1bbFBWD1MNUhEIEFUQGRRcRUVGC15BXF5PQAFaTUFSRlARDhFTAFAHER4QBl1AWEFETEYLEmR4EE9ABktNVl1BXFxaEVgQDgVGChBJEFxFakRQF0VCUVFfBhBBCRsDER4XXlVLPVEMWF1XURFbWlhGFA9GBBIYEl8MDApHVkFsQlxXFglAB1YGCwEQGA==
-///EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1024px-NHK_World.svg.png",NHK ///World
-https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+http://lb51.xxip9.top:25461/live/bd2Jep/404051/20073.m3u8?token=ThFcUhFaQQwRVAJSUQYAAAAAV1MFAwFUVAZbVw0LAVNUUFdRAQFbVFEQHkdBQURQV1g7WFQWCgBTUlQAFRFGQVBBa1oGEFkUAgEEUQAAFBkUQQ1cVRYKAk9AE1pdEQkQBwsNA1YQTxRWSkYAQFtXWWlRAUdZV1UQWQwWX1UfEV1bbFBWD1MNUhEIEFUQGRRcRUVGC15BXF5PQAFaTUFSRlARDhFTAFAHER4QBl1AWEFETEYLEmR4EE9ABktNVl1BXFxaEVgQDgVGChBJEFxFakRQF0VCUVFfBhBBCRsDER4XXlVLPVEMWF1XURFbTlhGFA9GBBIYEl8MDApHVkFsQlxXFglAB1YGCwEQGA==
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1024px-NHK_World.svg.png",NHK World
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50121.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://banner2.cleanpng.com/20181111/cvh/kisspng-logo-nick-jr-television-pop-max-tiny-pop-nick-jr-1713924014540.webp",Nick JR.
 https://fl5.moveonjoy.com/NICK_JR/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/SpongeBob_SquarePants_character.png",Spongebob All day!
-http://143.244.60.30/NICKTOONS/index.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Nicktoons_2023_Outlined_Logo.png/1024px-Nicktoons_2023_Outlined_Logo.png",NickToons
-https://fl1.moveonjoy.com/NICKTOONS/index.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/1024px-Nickelodeon_2023_logo_%28outline%29.svg.png",Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Nicktoons_2023_Outlined_Logo.png/1024px-Nicktoons_2023_Outlined_Logo.png",NickToons
+https://fl1.moveonjoy.com/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",News5Everywhere
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1751403533/ei/rfdjaKirDObZ1d8P_uWHwQ4/ip/103.167.66.208/id/I4I9awu1CQk.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-hoa7rn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AY1jyLMCotecJuBGROOujef3xPnix_6ZmcifP4f0E7ssHOiaPYbk_GdZvTRX5vhDqFdQZfDGx2R-6xFD/spc/l3OVKZSp97tyGPyKTbj74btRP63NnrVA4PsRo0zj2HZAFarr1dR9jHxjRNKPPHboBNU/vprv/1/playlist_type/DVR/initcwndbps/1623750/met/1751381934,/mh/sv/mm/44/mn/sn-hoa7rn76/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912/mt/1751381550/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAI6Mi8fdXFC7UZW1cWFZD49QW3ANI_QTMTscQLmODSVDAiEAwGkFEfAcj7elO7MewXULqsjsoBZybcx_R-HzJ0T8N8k%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAMWMoMNZ2C715A8kkeRAf1MRAwp5GHLVksy1zkwex2TrAiApm4eG0CeadrH6egRGU6dzrqluzMdYsKR20F6vbfJBAA%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-id="America.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/One_News_%282020%29.svg",One News
+http://filex.tv:8080/live/zulfikarsh01/000576/290886.m3u8
+#EXTINF:-1 tvg-id="America.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/One_News_%282020%29.svg",One News
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66824.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",One Piece
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6380c94947c72b0007ee9a13/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e06d815-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=011422f0-e50a-4334-9bb5-b01fe7684ef5
-#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Paramount_Network_2024.svg/1024px-Paramount_Network_2024.svg.png",Paramount Network
-https://fl3.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cd/PBA_Rush_logo.png/revision/latest?cb=20161115101642",PBA RUSH
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50127.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Pop_Corn_TV.png/revision/latest/scale-to-width-down/175?cb=20200724233242&path-prefix=es",Popcorn
-https://cdn4.skygo.mn/live/disk1/Popcorn/HLSv3-FTA/Popcorn.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/SMNI39.jpg",SMNI
-https://rumble.com/live-hls-dvr/6sbjav/playlist.m3u8?level=2
-#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/1024px-Kapamilya_Channel_Logo_2020.svg.png",Kapamilya Live
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1751403594/ei/6vdjaP-WMreD2roPg8ym4As/ip/103.167.66.208/id/_7uPlH6Yh18.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-hoa7kn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/ph/bui/AY1jyLNCW2Ctv_pUFVhswly5ehq_wToMNUOiV7KcUwEDwSqbv2FZy540hbHjfQhoYSJ1Ygh_Wxgsahrj/spc/l3OVKRl_lEtTYw7T7sv3gjgcEUHgrF26s7D8DTyrYAlVPD-QuN6-Qz2QTm_WvCVyNA_X6Q/vprv/1/playlist_type/DVR/initcwndbps/1650000/met/1751381996,/mh/iQ/mm/44/mn/sn-hoa7kn76/ms/lva/mv/m/mvi/5/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51331020/mt/1751381550/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAIULrGPQFMfAVI8KGOfzWQh8lQdJCBLh_WaUX5ulGgeYAiEApPJzBJvcqT2d1Ccc255o-GK4ghKeMmswqvGWpqWnL1Q%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgOPkCw_sOq66SuPJvLXKyoectZFYG34zWnY5q8S_eNTMCIAHojY--OPH5cdwc81EPnEN11g8z_OYco-k200AjOdGO/playlist/index.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/Cl_tv_36_ph.png/revision/latest/scale-to-width-down/1000?cb=20130823135759",CLTV!
-https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/09/UNTV2016.svg/revision/latest?cb=20241111073929",UNTV
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1751403580/ei/3PdjaOusBYKUvcAP68rQuAQ/ip/103.167.66.208/id/hOHPgPuMw7U.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-hoa7rn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AY1jyLODnIaHjvFCJtREMdIUt5_EG3ldl3dNmygk7j1JLF6VlQiEI7BAOsI2iCtHlZygIm-sgVQDww4-/spc/l3OVKZDkdkHUOK3Lf0EbWPE618TkOt4welzwmhqaO0rZV3scKFCpo9OlBFmvsHOfd1ZDeg/vprv/1/playlist_type/DVR/initcwndbps/1623750/met/1751381981,/mh/38/mm/44/mn/sn-hoa7rn76/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51331020/mt/1751381550/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhANIDAwAXQ7QyqHTKLJwMV6o6Y6pXMlv6ZyGB1DnoqBZ1AiEA_Uq9WebA4mMYhGUZ_uWdx8B73KGOaqLePzi0wn7Le8Q%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAP208idANzMypF57oY2TCAuQ2dTMOjUMJkBpErPPU0NOAiAOTxxNa2I2hN8T1xdFstfeGwvnUDuTe0jhI3N1BEm90A%3D%3D/playlist/index.m3u8
-#EXTINF:-1 tvg-id="EWTN.us@AsiaPacific" tvg-logo="https://i.imgur.com/sua70RO.png" group-title="Religious",EWTN Asia
-https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RTMASEAN.my" tvg-logo="https://i.imgur.com/skAiUxg.png",RTM ASEAN
-https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
-#EXTINF:-1 tvg-country="US" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2f/ABC-2021-LOGO.svg/revision/latest?cb=20220228011330",US ABC
-http://45.12.33.35:8080/live/Navarro/gDTSXxp/45726.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/08/One_PH_%282020%29.svg/revision/latest?cb=20240621071849",One PH
 http://45.88.0.12:8080/live/zulfikarsh01/000576/290885.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/One_Sports_%282020%29.svg/revision/latest?cb=20240801110958",One Sports
 http://45.88.0.12:8080/live/zulfikarsh01/000576/290888.m3u8
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1750924438/ei/NqhcaMPQKNSJ3LUPjer0mQc/ip/152.32.112.145/id/L1jGGMjk-hE.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51478321/txs/51478320%2C51478321%2C51478322/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/ss/1/ssa/1/bui/AY1jyLPuzqmghsGvLXrk8Y6eyXazN6BL3S7shvGMO29Swtg5sX5Ei1xiFcD4za9aznlCqsL3Wymc-0e8/spc/l3OVKUFVzPIzqZbyJH764UHvtz7xsrZHQ31Pic1N19NMEK4uz6ReSozF17cbAHpYQqG9AiX4HAA/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Css%2Cssa%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAPat43YNt4NIuJ84HFy7H94Tnv4ySscPvwRXcVYREyj1AiEA472XQ7xzjOeQoI0nTKZzieuk0viYFlPYXjIZgcipaLY%3D/file/index.m3u8
-#EXTINF:-1 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Viva_Cinema_2021.png/revision/latest/scale-to-width-down/1000?cb=20210804093235",VivaCinema
-http://45.88.0.12:8080/live/zulfikarsh01/000576/290905.m3u8
-#EXTINF:-1 tvg-country="PH" tvg-logo="",TFC
-http://xxip9.top:8080/live/bd2Jep/404051/101823.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Paramount_Network_2024.svg/1024px-Paramount_Network_2024.svg.png",Paramount Network
+https://fl3.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cd/PBA_Rush_logo.png/revision/latest?cb=20161115101642",PBA RUSH
+http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50127.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pluto_TV_logo_2024.svg/1024px-Pluto_TV_logo_2024.svg.png",Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faf9ddfcc1f200070a5932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f176-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=68c3c9ce-0e68-43fa-ade2-43491d9d88e2
+#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Pop_Corn_TV.png/revision/latest/scale-to-width-down/175?cb=20200724233242&path-prefix=es",Popcorn
+https://cdn4.skygo.mn/live/disk1/Popcorn/HLSv3-FTA/Popcorn.m3u8
+#EXTINF:-1 tvg-id="RTMASEAN.my" tvg-logo="https://i.imgur.com/skAiUxg.png",RTM ASEAN
+https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="",Sari Sari
 http://lb53.xxip9.top:25461/live/bd2Jep/404051/101824.m3u8?token=ThFcUhFaQQwRVARcCgIPUw8AUQUJA1MEAVFSCw8CA1YCUAwDVVRaBQcQHkdBQURQV1g7WFQWCgNTU1sBDR8RR0ZWRmwLVkEMEQMBUwYHAxcaFxBYXVESCFNOQUNQVxEIFwEEBVsFQRoRV0oRV0dYVFpqAFRGXVNXQVgNRlVfHxBaXWtXB18CWFcQCEcCFxoXX0YUEwpaRV4PTkFRUEdBU0FWFglAA1AOBRAeR1FaQ1tCRx0TChZgekFOQVZBR1ZcRlpbXUAIQVsARwpHHhdfRmlHAUJERlVTDgcREQMRAxAZEVlSGm0AWV1cVwZGXFlbRRdeEwUWHBAODQ1aTVxBbUVaUBFYEFUFAQcHR08=
-#EXTINF:-1 tvg-country="PH" tvg-logo="",GMA Life TV
-http://lb53.xxip9.top:25461/live/bd2Jep/404051/101825.m3u8?token=ThFcUhFaQQwRCgZUVgJXAANXVAEABwRTB1UGUAgGBQcBBgZXAFYCD1IQHkdBQURQV1g7WFQWCgNTU1sBDB8RR0ZWRmwLVkEMEQMBUwYHAxcaFxBYXVESCFNOQUNQVxEIFwECAlUHQRoRV0oRV0dYVFpqAFRGXVNXQVgNRlVfHxBaXWtXB18CWFcQCEcCFxoXX0YUEwpaRV4PTkFRUEdBU0FWFglAA1sOBBAeR1FaQ1tCRx0TChZgekFOQVZBR1ZcRlpbXUAIQVsARwpHHhdfRmlHAUJERlVTDgcREQMRAxAZEVlSGm0AWV1cVwZGXFlbRRdeEwUWHBAODQ1aTVxBbUVaUBFYEFUACgUDR08=
-#EXTINF:-1 tvg-country="PH" tvg-logo="",GMA Pinoy TV
-http://lb53.xxip9.top:25461/live/bd2Jep/404051/101826.m3u8?token=ThFcUhFaQQwRBlBVU1MGVAIFUFcDVlYGVQZVC10HClMBBQQKVVRSD1UQHkdBQURQV1g7WFQWCgNTU1sBDx8RR0ZWRmwLVkEMEQMBUwYHAxcaFxBYXVESCFNOQUNQVxEIFwoABlUKQRoRV0oRV0dYVFpqAFRGXVNXQVgNRlVfHxBaXWtXB18CWFcQCEcCFxoXX0YUEwpaRV4PTkFRUEdBU0FWFglAB1MEBRAeR1FaQ1tCRx0TChZgekFOQVZBR1ZcRlpbXUAIQVsARwpHHhdfRmlHAUJERlVTDgcREQMRAxAZEVlSGm0AWV1cVwZGXFlbRRdeEwUWHBAODQ1aTVxBbUVaUBFYEFUCAgELR08=
-#EXTINF:-1 tvg-country="PH" tvg-logo="",Food Network
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66828.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/SMNI39.jpg",SMNI
+https://rumble.com/live-hls-dvr/6sbjav/playlist.m3u8?level=2
+#EXTINF:-1 tvg-id="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/SpongeBob_SquarePants_character.png",Spongebob All day!
+http://143.244.60.30/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="",TAP TV
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66826.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="",TFC
+http://xxip9.top:8080/live/bd2Jep/404051/101823.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="",TV 5
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66821.m3u8
-#EXTINF:-1 tvg-country="PH" tvg-logo="",Animal Planet
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66820.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="",UAAP Varsity
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50118.m3u8
-#EXTINF:-1 tvg-country="PH" tvg-logo="",Cinema One
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50119.m3u8
-#EXTINF:-1 tvg-country="PH" tvg-logo="",Animax
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50122.m3u8
-#EXTINF:-1 tvg-country="PH" tvg-logo="",GMA NEWS TV
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50125.m3u8
-#EXTINF:-1 tvg-country="PH" tvg-logo="",Knowledge TV
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50129.m3u8
-#EXTINF:-1 tvg-country="PH" tvg-logo="",News5Everywhere
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1751403533/ei/rfdjaKirDObZ1d8P_uWHwQ4/ip/103.167.66.208/id/I4I9awu1CQk.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-hoa7rn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AY1jyLMCotecJuBGROOujef3xPnix_6ZmcifP4f0E7ssHOiaPYbk_GdZvTRX5vhDqFdQZfDGx2R-6xFD/spc/l3OVKZSp97tyGPyKTbj74btRP63NnrVA4PsRo0zj2HZAFarr1dR9jHxjRNKPPHboBNU/vprv/1/playlist_type/DVR/initcwndbps/1623750/met/1751381934,/mh/sv/mm/44/mn/sn-hoa7rn76/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912/mt/1751381550/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAI6Mi8fdXFC7UZW1cWFZD49QW3ANI_QTMTscQLmODSVDAiEAwGkFEfAcj7elO7MewXULqsjsoBZybcx_R-HzJ0T8N8k%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAMWMoMNZ2C715A8kkeRAf1MRAwp5GHLVksy1zkwex2TrAiApm4eG0CeadrH6egRGU6dzrqluzMdYsKR20F6vbfJBAA%3D%3D/playlist/index.m3u8
+#EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/09/UNTV2016.svg/revision/latest?cb=20241111073929",UNTV
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1751403580/ei/3PdjaOusBYKUvcAP68rQuAQ/ip/103.167.66.208/id/hOHPgPuMw7U.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-hoa7rn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AY1jyLODnIaHjvFCJtREMdIUt5_EG3ldl3dNmygk7j1JLF6VlQiEI7BAOsI2iCtHlZygIm-sgVQDww4-/spc/l3OVKZDkdkHUOK3Lf0EbWPE618TkOt4welzwmhqaO0rZV3scKFCpo9OlBFmvsHOfd1ZDeg/vprv/1/playlist_type/DVR/initcwndbps/1623750/met/1751381981,/mh/38/mm/44/mn/sn-hoa7rn76/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51331020/mt/1751381550/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhANIDAwAXQ7QyqHTKLJwMV6o6Y6pXMlv6ZyGB1DnoqBZ1AiEA_Uq9WebA4mMYhGUZ_uWdx8B73KGOaqLePzi0wn7Le8Q%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAP208idANzMypF57oY2TCAuQ2dTMOjUMJkBpErPPU0NOAiAOTxxNa2I2hN8T1xdFstfeGwvnUDuTe0jhI3N1BEm90A%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Viva_Cinema_2021.png/revision/latest/scale-to-width-down/1000?cb=20210804093235",VivaCinema
+http://45.88.0.12:8080/live/zulfikarsh01/000576/290905.m3u8
