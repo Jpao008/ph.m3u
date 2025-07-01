@@ -19,7 +19,7 @@ https://cdn4.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8
 https://live20.bozztv.com/giatv/giatv-ATBSGLOBAL/ATBSGLOBAL/playlist.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://banner2.cleanpng.com/20180423/tje/aveu1lt7r.webp",Bloomberg
 https://cdn4.skygo.mn/live/disk1/Bloomberg/HLSv3-FTA/Bloomberg.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://banner2.cleanpng.com/20180825/jkx/kisspng-boomerang-logo-vector-graphics-bumper-television-boomerang-1713948935498.webp",Boomerang
+#EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/1024px-Boomerang_2014_logo.svg.png",Boomerang
 https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/67/BuKo_Channel_%282021-.n.v.%29.png/revision/latest?cb=20210720055409",Buko Channel
 http://defaultgen.com:3050/live/ldiaz2272@gmail.com/eGBnMqYRac/558780.m3u8
@@ -29,7 +29,7 @@ https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=33
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f6/CCTN_Cebu_logo.png",CCTN 47
 http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8
-#EXTINF:-1 tvg-id="Cinemax.ph" tvg-logo="https://e1.pngegg.com/pngimages/887/112/png-clipart-tv-channel-icons-cinemax-black-cinemax-logo-thumbnail.png",Cinemax
+#EXTINF:-1 tvg-id="Cinemax.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/1024px-Cinemax_2016.svg.png",Cinemax
 http://50.7.234.10:8278/cinemax_twn/playlist.m3u8?tid=MCEC1614519816145198&ct=19193&tsum=e635ddeeb683b5cbcda1319d0cc18f84
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/1024px-Cinema_One_2013_logo.svg.png",Cinema One
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50119.m3u8
