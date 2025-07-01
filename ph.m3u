@@ -113,7 +113,7 @@ https://rumble.com/live-hls-dvr/6sbjav/playlist.m3u8?level=2
 #EXTINF:-1 tvg-id="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/SpongeBob_SquarePants_character.png",Spongebob All day!
 http://143.244.60.30/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/TapTV-ph.png",TAP TV
-https://dice-live-ap.akamaized.net/hls/live/2102497/220940-289405/exchange220940xyfko_220940_3000/chunklist.m3u8
+https://dice-live-ap.akamaized.net/hls/live/2102497/220940-289405/exchange220940xyfko_220940_3000/chunklist.m3u8?hdntl=exp=1751498652~acl=%2f*~id=763456bf-835a-456d-88db-f5fe176e1f14~data=hdntl,dWlkPVRCQWdtZnw3MjZlNzNkYy05MzcxLTQyMjctODNkZi0wZjQ3YWZlMjQ5NDgmaXA9MTUyLjMyLjk4LjI0MSZleHA9MTc1MTQ5ODY4MiZlaWQ9MjIwOTQwJmNpZD1kY2UudGFwZ28mb2lkPTMyNSZ0eXBlPUxJVkU~hmac=4733bcc2ffe170589c1ba7e7334dc896c6b9209096eb53778c4e6741abe2e052
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/1024px-The_Filipino_Channel_2011_logo.svg.png",TFC
 http://xxip9.top:8080/live/bd2Jep/404051/101823.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_%28Philippines%29_logo.svg/1024px-TV5_%28Philippines%29_logo.svg.png",TV 5
