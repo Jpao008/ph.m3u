@@ -3,7 +3,7 @@
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62ba60f059624e000781c436/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c25e430-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1b7de8e4-d114-4438-b098-6f7aee77b4be
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/A2Z_Channel_11_Logo.png",A2Z
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8
-#EXTINF:-1 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ABC_News_logo_2021.svg/1024px-ABC_News_logo_2021.svg.png",US ABC
+#EXTINF:-1 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ABC_News_logo_2021.svg/1024px-ABC_News_logo_2021.svg.png",ABC US
 http://45.12.33.35:8080/live/Navarro/gDTSXxp/45726.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a2/ANC-2015_%28rev2%29.svg/revision/latest/scale-to-width-down/1000?cb=20151026094948",ANC
 http://filex.tv:8080/live/zulfikarsh01/000576/290852.m3u8
@@ -13,7 +13,7 @@ http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50122.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1024px-2018_Animal_Planet_logo.svg.png",Animal Planet
 http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/66820.m3u8
-#EXTINF:0 tvg-country="PH" tvg-logo="https://www.vhv.rs/dpng/d/3-33733_asian-box-hd-png-download.png",Asian Box
+#EXTINF:0 tvg-country="PH" tvg-logo="https://firebasestorage.googleapis.com/v0/b/gercontent.appspot.com/o/upload%2FLogo%202-izp7w.png?alt=media&token=95a40d2e-2c31-46a6-b267-b45a30e8e762",Asian Box
 https://cdn4.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8
 #EXTINF:-1 tvg-id="ATBS.ph" tvg-logo="https://phcorner.org/attachments/atbs-global-webp.3753518/",ATBS
 https://live20.bozztv.com/giatv/giatv-ATBSGLOBAL/ATBSGLOBAL/playlist.m3u8
