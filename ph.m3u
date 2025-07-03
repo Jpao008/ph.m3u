@@ -96,7 +96,7 @@ https://cdn3.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Myxphlogo.svg/1024px-Myxphlogo.svg.png",Myx PH
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnono/be499d0a-f482-4dbb-b553-3010f638bf0f/index.mpd
 #EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA TV USA
-http://lb51.xxip9.top:25461/live/bd2Jep/404051/20073.m3u8?token=ThFcUhFaQQwRVAJSUQYAAAAAV1MFAwFUVAZbVw0LAVNUUFdRAQFbVFEQHkdBQURQV1g7WFQWCgBTUlQAFRFGQVBBa1oGEFkUAgEEUQAAFBkUQQ1cVRYKAk9AE1pdEQkQBwsNA1YQTxRWSkYAQFtXWWlRAUdZV1UQWQwWX1UfEV1bbFBWD1MNUhEIEFUQGRRcRUVGC15BXF5PQAFaTUFSRlARDhFTAFAHER4QBl1AWEFETEYLEmR4EE9ABktNVl1BXFxaEVgQDgVGChBJEFxFakRQF0VCUVFfBhBBCRsDER4XXlVLPVEMWF1XURFbTlhGFA9GBBIYEl8MDApHVkFsQlxXFglAB1YGCwEQGA==
+https://fl3.moveonjoy.com/NBA_TV/index.m3u8
 #EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/NBA_TV_Philippines_logo.svg/1024px-NBA_TV_Philippines_logo.svg.png",NBA Philippines
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1024px-NHK_World.svg.png",NHK World
