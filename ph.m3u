@@ -121,7 +121,7 @@ http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50127.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pluto_TV_logo_2024.svg/1024px-Pluto_TV_logo_2024.svg.png",Pluto TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faf9ddfcc1f200070a5932/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f176-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=68c3c9ce-0e68-43fa-ade2-43491d9d88e2
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Pop_Corn_TV.png/revision/latest/scale-to-width-down/175?cb=20200724233242&path-prefix=es",Popcorn
-https://cdn4.skygo.mn/live/disk1/Popcorn/HLSv3-FTA/Popcorn.m3u8
+https://cdn3.skygo.mn/live/disk1/Popcorn/HLSv3-FTA/Popcorn.m3u8
 #EXTINF:-1 tvg-id="RTMASEAN.my" tvg-logo="https://i.imgur.com/skAiUxg.png",RTM ASEAN
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sari-Sari_Channel_logo.svg/800px-Sari-Sari_Channel_logo.svg.png",Sari Sari
