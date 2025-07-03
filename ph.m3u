@@ -88,7 +88,7 @@ http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50129.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjDVFehyTkLg2267mWCxbNvQ0fNpsx1WIIw&s",MindaNow TV
 https://streams1.comclark.com/overlay/mindanow/playlist.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Moviebox_2019.png/revision/latest?cb=20250327002334",MovieBox
-https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
+https://cdn3.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Myxphlogo.svg/1024px-Myxphlogo.svg.png",Myx PH
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnono/be499d0a-f482-4dbb-b553-3010f638bf0f/index.mpd
 #EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA TV USA
