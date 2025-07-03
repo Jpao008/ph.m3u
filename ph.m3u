@@ -50,7 +50,7 @@ https://cdn4.skygo.mn/live/disk1/Dreambox/HLSv3-FTA/Dreambox.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DZBB594.svg/1024px-DZBB594.svg.png",DZBB Radyo
 https://stream.gmanews.tv/ioslive/livestream/playlist.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/DZMM_630_2025.svg/1024px-DZMM_630_2025.svg.png",DZMM Radyo
-http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50123.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/9a25ce23-ab6c-4bdf-9007-0eab67d8d258/index.mpd
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/1024px-ESPNews.svg.png",ESPN News
 https://fl3.moveonjoy.com/ESPN_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="EWTN.us@AsiaPacific" tvg-logo="https://i.imgur.com/sua70RO.png" group-title="Religious",EWTN Asia
