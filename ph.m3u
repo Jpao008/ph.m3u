@@ -16,7 +16,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/58
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1024px-2018_Animal_Planet_logo.svg.png",Animal Planet
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd
 #EXTINF:0 tvg-country="PH" tvg-logo="https://firebasestorage.googleapis.com/v0/b/gercontent.appspot.com/o/upload%2FLogo%202-izp7w.png?alt=media&token=95a40d2e-2c31-46a6-b267-b45a30e8e762",Asian Box
-https://cdn4.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8
+https://cdn3.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8
 #EXTINF:-1 tvg-id="ATBS.ph" tvg-logo="https://phcorner.org/attachments/atbs-global-webp.3753518/",ATBS
 https://live20.bozztv.com/giatv/giatv-ATBSGLOBAL/ATBSGLOBAL/playlist.m3u8
 #EXTINF:-1 tvg-id="Bilyonaryo.ph" tvg-logo="https://assets.azbilliards.com/wp-content/uploads/2023/04/06180627/unnamed-3-2.png",Billiard TV
