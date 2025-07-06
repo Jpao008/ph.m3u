@@ -129,7 +129,11 @@ https://cdn3.skygo.mn/live/disk1/Popcorn/HLSv3-FTA/Popcorn.m3u8
 #EXTINF:-1 tvg-id="RTMASEAN.my" tvg-logo="https://i.imgur.com/skAiUxg.png",RTM ASEAN
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sari-Sari_Channel_logo.svg/800px-Sari-Sari_Channel_logo.svg.png",Sari Sari
-http://lb53.xxip9.top:25461/live/bd2Jep/404051/101824.m3u8?token=ThFcUhFaQQwRVARcCgIPUw8AUQUJA1MEAVFSCw8CA1YCUAwDVVRaBQcQHkdBQURQV1g7WFQWCgNTU1sBDR8RR0ZWRmwLVkEMEQMBUwYHAxcaFxBYXVESCFNOQUNQVxEIFwEEBVsFQRoRV0oRV0dYVFpqAFRGXVNXQVgNRlVfHxBaXWtXB18CWFcQCEcCFxoXX0YUEwpaRV4PTkFRUEdBU0FWFglAA1AOBRAeR1FaQ1tCRx0TChZgekFOQVZBR1ZcRlpbXUAIQVsARwpHHhdfRmlHAUJERlVTDgcREQMRAxAZEVlSGm0AWV1cVwZGXFlbRRdeEwUWHBAODQ1aTVxBbUVaUBFYEFUFAQcHR08=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d
+https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/SMNI39.jpg",SMNI
 https://rumble.com/live-hls-dvr/6sbjav/playlist.m3u8?level=2
 #EXTINF:-1 tvg-id="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/SpongeBob_SquarePants_character.png",Spongebob All day!
