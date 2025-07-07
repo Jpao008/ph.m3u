@@ -155,4 +155,4 @@ https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1751885642/ei/6
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Viva_Cinema_2021.png/revision/latest/scale-to-width-down/1000?cb=20210804093235",VivaCinema
 http://45.88.0.12:8080/live/zulfikarsh01/000576/290905.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/WWE_Network_logo.svg/800px-WWE_Network_logo.svg.png",WWE Network
-https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc106wh3yw)/master.mpd
+http://198.16.100.186:8278/wwe_twn/playlist.m3u8?tid=MACA9233903292339032&ct=18393&tsum=e4cbbd3b73f34348c4a58d7dc6fbd7dc
