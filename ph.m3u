@@ -7,7 +7,7 @@ https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8
 http://45.12.33.35:8080/live/Navarro/gDTSXxp/45726.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a2/ANC-2015_%28rev2%29.svg/revision/latest/scale-to-width-down/1000?cb=20151026094948",ANC
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/7ce73f47-669b-4afd-b454-1b27c649df34/index.mpd
-#EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/1024px-Animax_logo.svg.png",Animax
+#EXTINF:-1 tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/1024px-Animax_logo.svg.png",Animax
 https://haoyunlai.serv00.net/Smartv-1.php?id=Animax
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Hidive_text_logo.svg/800px-Hidive_text_logo.svg.png",Anime X Hidive
 https://amc-anime-x-hidive-1-us.tablo.wurl.tv/playlist.m3u8
