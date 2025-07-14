@@ -100,7 +100,7 @@ https://streams1.comclark.com/overlay/mindanow/playlist.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Moviebox_2019.png/revision/latest?cb=20250327002334",MovieBox
 https://cdn3.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Myxphlogo.svg/1024px-Myxphlogo.svg.png",Myx PH
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnono/00ed8b6f-af1b-4357-8147-3e35c6efb377/index.mpd
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnono/index.mpd
 #EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png",NBA TV USA
 https://fl3.moveonjoy.com/NBA_TV/index.m3u8
 #EXTINF:-1 tvg-id="NBAUS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/NBA_TV_Philippines_logo.svg/1024px-NBA_TV_Philippines_logo.svg.png",NBA Philippines
