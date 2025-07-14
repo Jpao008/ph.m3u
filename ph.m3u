@@ -46,7 +46,7 @@ http://122.117.71.103:8670/http/220.130.87.218:8081/hls/71/813/ch042.m3u8
 #EXTINF:-1 tvg-id="Cinebox.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/58/Logo_Cin%C3%A9box.svg/502px-Logo_Cin%C3%A9box.svg.png?20110512201804",Cinebox Blockbuster
 http://xxip9.top:8080/live/robertuk/robertuk1@1/119421.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/1024px-Cinema_One_2013_logo.svg.png",Cinema One
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-cinemaone-dash-abscbnono/a5956261-0e37-4cbc-afdc-3cde159c95b5/index.mpd
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-cinemaone-dash-abscbnono/index.mpd
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Cinemo_logo_vectorized.svg/1024px-Cinemo_logo_vectorized.svg.png",Cinemo!
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
 #EXTINF:0 tvg-country="PH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/Cl_tv_36_ph.png/revision/latest/scale-to-width-down/1000?cb=20130823135759",CLTV!
