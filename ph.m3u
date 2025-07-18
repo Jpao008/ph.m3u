@@ -78,7 +78,7 @@ http://mu3241218.oknirvana.club:8880/live/D12m2000001/81455863/50125.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/af/GMA_Pinoy_TV_logo.png",GMA Pinoy TV
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/1024px-HBO_logo.svg.png",HBO
-https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2304/default_ott.mpd
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/HBO_Zone_logo.png?20160304233710",HBO Zone
 https://fl5.moveonjoy.com/HBO_ZONE/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="America.ph" tvg-logo="https://e7.pngegg.com/pngimages/764/685/png-clipart-youtube-horror-film-scary-movie-comedy-horror-television-text.png",Horror Movies
