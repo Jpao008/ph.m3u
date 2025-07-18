@@ -125,6 +125,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63
 http://45.88.0.12:8080/live/zulfikarsh01/000576/290885.m3u8
 #EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/One_Sports_logo.svg/1024px-One_Sports_logo.svg.png",One Sports
 http://45.88.0.12:8080/live/zulfikarsh01/000576/290888.m3u8
+#EXTINF:-1 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cc/One_TV_Asia_logo_%282020%29.png",One TV asia
+https://fta1-cdn-flr.visionplus.id/out/v1/9ec31bcce34848d69d4771270ff23ab9/index.mpd
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1750924438/ei/NqhcaMPQKNSJ3LUPjer0mQc/ip/152.32.112.145/id/L1jGGMjk-hE.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51478321/txs/51478320%2C51478321%2C51478322/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/ss/1/ssa/1/bui/AY1jyLPuzqmghsGvLXrk8Y6eyXazN6BL3S7shvGMO29Swtg5sX5Ei1xiFcD4za9aznlCqsL3Wymc-0e8/spc/l3OVKUFVzPIzqZbyJH764UHvtz7xsrZHQ31Pic1N19NMEK4uz6ReSozF17cbAHpYQqG9AiX4HAA/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Css%2Cssa%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAPat43YNt4NIuJ84HFy7H94Tnv4ySscPvwRXcVYREyj1AiEA472XQ7xzjOeQoI0nTKZzieuk0viYFlPYXjIZgcipaLY%3D/file/index.m3u8
 #EXTINF:0 tvg-country="PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Paramount_Network_2024.svg/1024px-Paramount_Network_2024.svg.png",Paramount Network
 https://fl3.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
